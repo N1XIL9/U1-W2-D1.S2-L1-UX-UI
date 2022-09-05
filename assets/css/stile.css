@@ -294,6 +294,11 @@ footer a {
         line-height: 2;
     }
 
+    article:nth-child(6) {
+        margin-top: 20px;
+        text-align: center;
+    }
+
     article>h1,
     h2 {
         font-size: 20px;
@@ -313,64 +318,18 @@ footer a {
 }
 
 @media (min-width: 480px) {
-
-    article p:nth-of-type(1) {
-        line-height: 2;
-        text-align: center;
-    }
-
-    article p:nth-of-type(3) {
-        line-height: 2;
-    }
-
-    article:nth-child(6) {
-        margin-top: 20px;
-        text-align: center;
-    }
-
     iframe {
         height: 300px;
     }
 }
 
 @media (min-width: 768px) {
-
-    article p:nth-of-type(1) {
-        line-height: 2;
-        text-align: center;
-    }
-
-    article p:nth-of-type(3) {
-        line-height: 2;
-    }
-
-    article:nth-child(6) {
-        margin-top: 20px;
-        text-align: center;
-    }
-
     iframe {
         height: 400px
     }
 }
 
 @media (min-width: 1024px) {
-
-
-    article p:nth-of-type(1) {
-        line-height: 2;
-        text-align: center;
-    }
-
-    article p:nth-of-type(3) {
-        line-height: 2;
-    }
-
-    article:nth-child(6) {
-        margin-top: 20px;
-        text-align: center;
-    }
-
     table {
         tab-size: 30px;
         margin: 0 auto;
@@ -383,31 +342,9 @@ footer a {
 }
 
 @media (min-width: 1200px) {
-
-
     body {
         max-width: 1200px;
         margin: auto;
-    }
-
-    article p:nth-of-type(1) {
-        line-height: 2;
-        text-align: center;
-    }
-
-    article p:nth-of-type(3) {
-        line-height: 2;
-    }
-
-    article:nth-child(6) {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    table {
-        tab-size: 30px;
-        margin: 0 auto;
-        margin-bottom: 20px;
     }
 
     iframe {
