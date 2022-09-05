@@ -349,6 +349,7 @@ footer a {
     }
 
     iframe {
+        background-image: cover;
         height: 400px
     }
 }
