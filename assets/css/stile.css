@@ -307,7 +307,6 @@ footer a {
     }
 
     table {
-        width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -324,12 +323,29 @@ footer a {
 }
 
 @media (min-width: 768px) {
+
+    aside div {
+        display: inline-block;
+        justify-content: center;
+        flex-direction: row;
+        width: 32%;
+
+    }
+
     iframe {
         height: 400px
     }
 }
 
 @media (min-width: 1024px) {
+    aside div {
+        display: inline-block;
+        justify-content: center;
+        flex-direction: row;
+        width: 33%;
+
+    }
+
     table {
         tab-size: 30px;
         margin: 0 auto;
@@ -342,11 +358,6 @@ footer a {
 }
 
 @media (min-width: 1200px) {
-    body {
-        max-width: 1200px;
-        margin: auto;
-    }
-
     iframe {
         height: 600px;
     }
