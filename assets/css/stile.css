@@ -242,6 +242,7 @@ button {
 }
 
 /* ELEMENTI NELL' ASIDE */
+
 aside h2 {
     text-align: center;
     color: #333;
@@ -317,6 +318,13 @@ footer a {
 }
 
 @media (min-width: 480px) {
+
+    p,
+    ul,
+    ol {
+        font-size: 20px;
+    }
+
     iframe {
         height: 300px;
     }
@@ -324,12 +332,20 @@ footer a {
 
 @media (min-width: 768px) {
 
-    aside div {
-        display: inline-block;
-        justify-content: center;
-        flex-direction: row;
-        width: 32%;
+    p,
+    ul,
+    ol {
+        font-size: 20px;
+    }
 
+    aside {
+        display: flex;
+        margin-inline: auto;
+        justify-content: center;
+    }
+
+    aside div {
+        width: 400px;
     }
 
     iframe {
@@ -338,6 +354,13 @@ footer a {
 }
 
 @media (min-width: 1024px) {
+
+    p,
+    ul,
+    ol {
+        font-size: 25;
+    }
+
     aside div {
         display: inline-block;
         justify-content: center;
@@ -358,6 +381,13 @@ footer a {
 }
 
 @media (min-width: 1200px) {
+
+    p,
+    ul,
+    ol {
+        font-size: 25px;
+    }
+
     iframe {
         height: 600px;
     }
@@ -385,7 +415,8 @@ footer a {
     section,
     footer,
     .toTop,
-    .social {
+    .social,
+    article~h2 {
         display: none;
     }
 }
