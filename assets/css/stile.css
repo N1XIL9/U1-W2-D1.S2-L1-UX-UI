@@ -332,6 +332,10 @@ footer a {
 
 @media (min-width: 768px) {
 
+    header img {
+        float: left;
+    }
+
     p,
     ul,
     ol {
@@ -355,6 +359,9 @@ footer a {
 }
 
 @media (min-width: 1024px) {
+    header img {
+        float: left;
+    }
 
     p,
     ul,
